@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Search from "./Search";
 import IPdetails from "./IPdetails";
-import Map from "./map";
+import Mapp from "./Mapp ";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchIPData } from "../REDUX/IPtrackerSlice";
 
@@ -30,7 +30,7 @@ const TrackerMainPage = () => {
         </div>
       </div>
       <div className="">
-        <Map />
+        <Mapp />
       </div>
     </>
   );
